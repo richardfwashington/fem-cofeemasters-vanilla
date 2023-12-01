@@ -1,11 +1,13 @@
 import Store from "./services/Store.js";
 import API from "./services/API.js";
 
-window.app = {};
+
+
+/*window.app = {};
 app.store = Store;
 
 window.addEventListener("DOMContentLoaded", () => {
-  let nav = $("nav");
+  let nav = document.querySelector("nav");
 
   console.log(nav);
 
@@ -13,8 +15,8 @@ window.addEventListener("DOMContentLoaded", () => {
   <h1>Hello DOM</h1>
   <p>This is HTML within a JavaScript string</p>
   `;
-});
-
+});*
+/*
 // Use $ instead of document.querySelector - just like JQuery
 const $ = (args) => document.querySelector(args);
 
@@ -31,4 +33,4 @@ HTMLElement.prototype.off = (a, b) => this.removeEventListener(a, b);
 HTMLElement.prototype.$ = (s) => this.querySelector(s);
 
 // Use element.$$ instead of element.querySelectorAll
-HTMLElement.prototype.$$ = (s) => this.querySelectorAll(s);
+HTMLElement.prototype.$$ = (s) => this.querySelectorAll(s);*/
