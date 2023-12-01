@@ -1,11 +1,14 @@
 import Store from "./services/Store.js";
 import API from "./services/API.js";
+import { loadData } from "./services/Menu.js";
 
 window.app = {};
 app.store = Store;
 
 // Wait for everything to be in memory before we try and manipulate the DOM
-window.addEventListener("DOMContentLoaded", () => {});
+window.addEventListener("DOMContentLoaded", () => {
+  loadData();
+});
 
 /*
 window.addEventListener("DOMContentLoaded", () => {
