@@ -10,6 +10,7 @@ app.router = Router;
 // Wait for everything to be in memory before we try and manipulate the DOM
 window.addEventListener("DOMContentLoaded", () => {
   loadData();
+  app.router.init();
 });
 
 /*
