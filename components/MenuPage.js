@@ -4,3 +4,4 @@ export default class MenuPage extends HTMLElement {
     }
 }
 customElements.define("menu-page", MenuPage);
+console.log('His');
